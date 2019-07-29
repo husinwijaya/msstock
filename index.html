@@ -7,5 +7,5 @@ function getUrlParameter(name) {
     var results = regex.exec(location.search);
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
 };
-document.getElementById("ms").src="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fquotes.morningstar.com%2Fstock%2Fanalysis-report%3Fregion%3Didn%26culture%3Den-US%26productcode%3DMLE%26cur%26t%3D"+getUrlParameter("code")
+document.getElementById("ms").src="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fquotes.morningstar.com%2Fstock%2Fanalysis-report%3Fregion%3Didn%26culture%3Den-US%26productcode%3DMLE%26cur%26t%3D"+getUrlParameter("c")
 </script>
